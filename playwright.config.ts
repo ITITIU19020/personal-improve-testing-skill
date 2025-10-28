@@ -49,6 +49,22 @@ export default defineConfig({
       use: { ...devices['Desktop Safari'] },
     },
 
+    // Mobile Devices
+    {
+      name: 'iPhone 14',
+      use: { ...devices['iPhone 14'] },
+    },
+    {
+      name: 'Pixel 7',
+      use: { ...devices['Pixel 7'] },
+    },
+
+    // Tablet
+    {
+      name: 'iPad Pro 11',
+      use: { ...devices['iPad Pro 11'] },
+    },
+
     /* Test against mobile viewports. */
     // {
     //   name: 'Mobile Chrome',
